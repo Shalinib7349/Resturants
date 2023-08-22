@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div id="sign up">
+		 <form action="signup" method="post" enctype="multipart/form-data">
+			<fieldset style="border: 5px solid green; width: 70% ;">
+				<legend>Signup</legend>
+				<table>
+					<tr>
+						<th>Name:</th>
+						<th><input type="text" name="fullname" required></th>
+					</tr>
+					<tr>
+						<th>Email:</th>
+						<th><input type="email" name="email" required></th>
+					</tr>
+					<tr>
+						<th>Mobile:</th>
+						<th><input type="number" name="mobile" required ></th>
+					</tr>
+					<tr>
+						<th>Password:</th>
+						<th><input type="password" name="password" required></th>
+					</tr>
+					<tr>
+						<th>Gender:</th>
+						<th>
+							<input type="radio" value="Male" name="gender">Male
+							<input type="radio" value="Female" name="gender">Female
+							<input type="radio" value="others" name="gender">Others
+							
+						</th>
+					</tr>
+					<tr>
+						<th>Picture:</th>
+						<th><input type="file" name="picture"></th>
+					</tr>
+					<tr>
+						<th>Country:</th>
+						<th>
+							<select name="country" >
+								<option>India</option>
+								<option>USA</option>
+								<option>UK</option>
+								<option>Russia</option>
+								<option>Srilanka</option>
+							</select>
+						</th>
+					</tr>
+					<tr>
+						<th>Date of birth:</th>
+						<th><input type="date" name="dob" required></th>
+					</tr>
+				</table>
+               <!-- <button type="submit"><a href="Login.html">Signup</a></button> -->
+			   <button type="submit">Signup</button>
+			   <button type="reset"><a href="Signup.html">Cancel</a></button>
+			</fieldset>
+			<a href="Login.html">Already have an account?click here to login</a>
+		 </form> 
+		 <a href="Home.html">Home</a>
+	 </div>
+</body>
+</html>
